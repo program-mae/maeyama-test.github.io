@@ -9,7 +9,6 @@ font-family: "I-OTF新ゴシックPro U"; */
 *{
   box-sizing: border-box;
 }
-
 .br-sp{
   display: none;
 }
@@ -71,16 +70,11 @@ font-family: "I-OTF新ゴシックPro U"; */
   font-size: 6vw;
   letter-spacing: 0.5vw;
 }
-
 .example{
   background-image: url(images/max-width-599px/background-image.png);
   background-size: cover;
   padding: 5vw;
 }
-/* .example-mask{
-  padding: 5vw;
-  background: rgb(255, 255, 255, 0.7);
-} */
 .example-qr{
   width: 27vw;
   margin: 0 auto 1vw auto;
@@ -193,7 +187,6 @@ font-family: "I-OTF新ゴシックPro U"; */
   width: 12vw;
   object-fit: contain;
 }
-
 .customer-voice{
   display: flex;
 }
@@ -243,7 +236,6 @@ font-family: "I-OTF新ゴシックPro U"; */
   height: 3vw;
   width: 78.5vw;
   background-color: #E470A5;
-  /* z-index: -1; */
 }
 .familiar{
   display: flex;
@@ -504,11 +496,6 @@ font-family: "I-OTF新ゴシックPro U"; */
   font-size: 3vw;
   line-height: 5vw;
 }
-.info{
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-}
 .info-top{
   display: flex;
   justify-content: space-around;
@@ -551,9 +538,6 @@ font-family: "I-OTF新ゴシックPro U"; */
   justify-content: space-between;
   align-items: center;
   padding: 3vw 5vw;
-}
-.footer-left{
-  /* width: 70%; */
 }
 .footer-left-top{
   display: flex;
@@ -638,7 +622,6 @@ font-family: "I-OTF新ゴシックPro U"; */
   .top-text5{
     letter-spacing: -13vw;
   }
-
   .example-qr{
     width: 35vw;
   }
@@ -709,11 +692,17 @@ font-family: "I-OTF新ゴシックPro U"; */
     background-size: contain;
     padding: 5vw 5vw 50vw 5vw;
   }
-  /* .example-mask{
-    padding: 5vw 5vw 50vw 5vw;
-  } */
   .example-qr{
-    width: 60vw;
+    width: 70vw;
+  }
+  .ito-ortho {
+    font-size: 3.5vw;
+  }
+  .mr {
+    font-size: 3vw;
+  }
+  .sayama-city {
+    font-size: 3.5vw;
   }
   .ito-ortho-qr {
     width: 9vw;
@@ -759,7 +748,8 @@ font-family: "I-OTF新ゴシックPro U"; */
   }
   .customer-voice-comment, .right{
     font-size: 3.5vw;
-    line-height: 5vw;
+    line-height: 6vw;
+    letter-spacing: 0.1vw;
   }
   .mr-ito-content {
     width: 80%;
